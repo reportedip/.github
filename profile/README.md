@@ -1,15 +1,3 @@
-## Hi there 👋
-
-<!--
-
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
 # ReportedIP
 
 **Open Threat Intelligence for a Safer Internet — made in Germany.**
@@ -33,31 +21,31 @@ All systems are hosted and operated in Germany, fully GDPR-compliant.
 ## How it works
 
 1. **Collect** — Honeypots, network sensors and community members worldwide report suspicious IP addresses (failed logins, comment spam, XML-RPC abuse, port scanning, …).
-2. 2. **Score** — Every report is cross-checked and fed into the reputation engine. The confidence score (0–100) factors in report volume, source diversity, threat severity, recency and whether honeypots were involved. Old reports decay over time.
-   3. 3. **Protect** — Query the API to check any IP, set up automatic blocking based on confidence thresholds, pull curated blacklists for your firewall, or use the Hive plugin to protect WordPress without writing a line of code.
-     
-      4. 30 distinct threat categories are tracked — from brute-force and spam to malware, DDoS, fraud, infrastructure abuse and APT activity.
-     
-      5. ## Get involved
-     
-      6. - **Run a honeypot** — every instance contributes attack data and makes everyone safer. Request a free Community Access Key at `1@reportedip.de`.
-         - - **Protect your WordPress site** with [Hive](https://github.com/reportedip/reportedip-hive) and feed back attacks into the network.
-           - - **Pull the blacklist** for your firewall, SIEM or reverse proxy from [reportedip-blacklist](https://github.com/reportedip/reportedip-blacklist).
-             - - **Report false positives or malicious IPs** to `abuse@reportedip.de`.
-              
-               - Bug reports, feature requests and pull requests are welcome on every repository.
-              
-               - ## Patronage & team
-              
-               - ReportedIP runs under the patronage of **Patrick Schlesinger** ([LinkedIn](https://www.linkedin.com/in/contex/)), who initiated the project. It is built and maintained by the team at **CMS ADMINS**, a German infrastructure company with years of experience in server administration, web hosting and IT security. Development happens in the open and the platform evolves based on real feedback from the people who use it.
-              
-               - ## Privacy & compliance
-              
-               - - 100% German infrastructure
-                 - - Fully GDPR-compliant (Art. 6(1)(f) lawful basis documented in-product for Hive)
-                   - - Privacy-minimal logging, anonymisation and short retention windows
-                     - - No personal data exposed in public feeds — only IP reputation
-                      
-                       - ---
+2. **Score** — Every report is cross-checked and fed into the reputation engine. The confidence score (0–100) factors in report volume, source diversity, threat severity, recency and whether honeypots were involved. Old reports decay over time.
+3. **Protect** — Query the API to check any IP, set up automatic blocking based on confidence thresholds, pull curated blacklists for your firewall, or use the Hive plugin to protect WordPress without writing a line of code.
 
-                       © 2025–2026 ReportedIP / Patrick Schlesinger. Code is released under the license listed in each repository.
+30 distinct threat categories are tracked — from brute-force and spam to malware, DDoS, fraud, infrastructure abuse and APT activity.
+
+## Get involved
+
+- **Run a honeypot** — every instance contributes attack data and makes everyone safer. Request a free Community Access Key at `1@reportedip.de`.
+- **Protect your WordPress site** with [Hive](https://github.com/reportedip/reportedip-hive) and feed back attacks into the network.
+- **Pull the blacklist** for your firewall, SIEM or reverse proxy from [reportedip-blacklist](https://github.com/reportedip/reportedip-blacklist).
+- **Report false positives or malicious IPs** to `abuse@reportedip.de`.
+
+Bug reports, feature requests and pull requests are welcome on every repository.
+
+## Patronage & team
+
+ReportedIP runs under the patronage of **Patrick Schlesinger** ([LinkedIn](https://www.linkedin.com/in/contex/)), who initiated the project. It is built and maintained by the team at **CMS ADMINS**, a German infrastructure company with years of experience in server administration, web hosting and IT security. Development happens in the open and the platform evolves based on real feedback from the people who use it.
+
+## Privacy & compliance
+
+- 100% German infrastructure
+- Fully GDPR-compliant (Art. 6(1)(f) lawful basis documented in-product for Hive)
+- Privacy-minimal logging, anonymisation and short retention windows
+- No personal data exposed in public feeds — only IP reputation
+
+---
+
+© 2025–2026 ReportedIP / Patrick Schlesinger. Code is released under the license listed in each repository.
