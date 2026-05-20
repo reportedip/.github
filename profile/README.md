@@ -16,6 +16,7 @@ All systems are hosted and operated in Germany, fully GDPR-compliant.
 |---|---|---|---|
 | [**reportedip-blacklist**](https://github.com/reportedip/reportedip-blacklist) | Community-driven IP threat intelligence feed with curated and dynamic blacklists, updated daily. Plain-text, JSON, CSV and firewall-ready configs (nginx / Apache / iptables). | Shell | CC BY 4.0 |
 | [**reportedip-hive**](https://github.com/reportedip/reportedip-hive) | Community-powered WordPress security plugin — 12 attack sensors, a complete 2FA suite (TOTP, WebAuthn/FIDO2, Email, SMS), progressive blocks and opt-in herd-immunity threat sharing. | PHP | GPL-2.0-or-later |
+| [**reportedip-hive-light**](https://github.com/reportedip/reportedip-hive-light) | Lightweight WordPress brute-force login protection with optional community-powered IP reputation checks. Progressive block-duration ladder (5 min → 7 d), trusted-proxy header whitelist and a three-tab settings page — the slim sibling of Hive. | PHP | GPL-2.0-or-later |
 | [**honeypot-server**](https://github.com/reportedip/honeypot-server) | Standalone PHP honeypot that emulates WordPress, Drupal and Joomla. 36 threat analyzers feed detections directly into the ReportedIP API. | PHP | BSL 1.1 → Apache-2.0 (2030) |
 
 ## How it works
@@ -29,7 +30,7 @@ All systems are hosted and operated in Germany, fully GDPR-compliant.
 ## Get involved
 
 - **Run a honeypot** — every instance contributes attack data and makes everyone safer. Request a free Community Access Key at `1@reportedip.de`.
-- **Protect your WordPress site** with [Hive](https://github.com/reportedip/reportedip-hive) and feed back attacks into the network.
+- **Protect your WordPress site** with [Hive](https://github.com/reportedip/reportedip-hive) (full suite) or [Hive Light](https://github.com/reportedip/reportedip-hive-light) (lightweight) and feed back attacks into the network.
 - **Pull the blacklist** for your firewall, SIEM or reverse proxy from [reportedip-blacklist](https://github.com/reportedip/reportedip-blacklist).
 - **Report false positives or malicious IPs** to `abuse@reportedip.de`.
 
